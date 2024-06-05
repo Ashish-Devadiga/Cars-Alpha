@@ -1,0 +1,207 @@
+*::selection {
+    color: #000000;
+    background-color: rgb(243, 243, 243);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Gilroy";
+    overflow-x: hidden;
+}
+
+#section {
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.vid {
+    right: 0;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: fill 0 linear gradient(rgb(150, 30, 30), #000);
+}
+
+.logo { 
+    height: 60px;
+    width: 100px;
+    padding: 10px;
+    filter: invert();
+}
+
+.textmain {
+    font-size: 45px;
+    margin-top: 130px;
+    color: white;
+    text-shadow: rgb(255, 255, 255) 1px 0 2px;
+}
+
+.textp{
+    font-size: 30px;
+    color: grey;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.list:hover {
+    color: rgb(168, 164, 164);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn {
+    transition: 0.3s all ease-in-out;
+}
+
+.search {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.intro {
+    margin-top: 230px;
+}
+
+.Carsintro {
+    padding-top: 100px;
+}
+
+.carsmain {
+    padding-top: 10px;
+}
+
+.carlogo {
+    height: 70px;
+    width: auto;
+}
+
+.exclusive {
+    margin-top: 10px;
+}
+
+.exclusive:hover {
+    transition: 0.5s ease-in-out;
+}
+
+#bgimg {
+    background: url('/img/BlackCar.jpg');;
+    background-repeat: no-repeat;
+    height: 580px;
+    object-fit: cover;
+}
+
+.textbg {
+    font-size: 60px;
+    color: transparent;
+    font-weight: 590;
+    -webkit-text-stroke: 1px #f1f1f1;
+    letter-spacing: -5px;
+}
+.list {
+    font-weight: 500;
+}
+
+.line {
+    margin-left: 20px;
+}
+
+.carford {
+    padding-top: 210px;
+}
+
+.textnor {
+    font-weight: 700;
+}
+
+.textcarblock {
+    cursor: not-allowed;
+}
+
+.vidlog {
+    right: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.author:hover {
+    color: rgb(216, 211, 211);
+    transition: 0.3s all ease-in-out;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .vid {
+        width: 100%;
+        height: auto;
+    }
+}
+ 
+@media (max-width:550px) {
+
+.textmain {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 10px;
+    }
+
+.textp {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.logo { 
+    height: 50px;
+    width: 80px;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+.intro {
+    margin-top: 0px;
+}
+
+.Carsintro {
+    padding-top: 60px;
+}
+
+.carsmain {
+    padding-top: 0px;
+}
+
+.exclusive {
+    margin-top: 10px;
+}
+
+.textbg {
+    font-size: 45px;
+    text-align: center;
+}
+
+.line {
+    margin: auto;
+}
+
+.carford {
+    padding-top: 80px;
+}
+
+}
+
