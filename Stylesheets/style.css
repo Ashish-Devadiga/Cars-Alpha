@@ -136,6 +136,11 @@ body {
     transition: 0.3s all ease-in-out;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @media (min-aspect-ratio: 16/9) {
     .vid {
         width: 100%;
